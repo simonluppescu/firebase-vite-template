@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 
+import "@/init";
 import App from "@/App";
 import { store } from "@/store/store";
 
