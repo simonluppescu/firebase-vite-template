@@ -1,0 +1,10 @@
+@import "styles/example";
+
+.main-app {
+  background: rgb(133, 226, 227);
+  background: linear-gradient(85deg, rgba(133, 226, 227, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.page-container {
+  @apply container mx-auto mt-3;
+}

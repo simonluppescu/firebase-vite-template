@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl lg:text-7xl font-brand;
+  }
+  h2 {
+    @apply text-2xl lg:text-4xl font-brand;
+  }
+  h3 {
+    @apply text-xl lg:text-3xl font-brand;
+  }
+  h4 {
+    @apply text-xl font-brand;
+  }
+  h5 {
+    @apply text-lg font-brand;
+  }
+}
+
+.firebase-emulator-warning {
+  opacity: 0.4;
+}
