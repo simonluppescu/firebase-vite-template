@@ -26,3 +26,4 @@ dist-ssr
 # Firebase
 firebase-data
 firestore-debug.log
+.firebase
