@@ -1,21 +1,15 @@
-import { BrowserRouter, useRoutes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "@/App.css";
 
 import Home from "@/components/Home";
 
 const App: React.FC = () => {
-  const Routes = () =>
-    useRoutes([
-      {
-        path: "/",
-        element: <Home />
-      }
-    ]);
-
   return (
     <BrowserRouter>
-      <Routes />
+      <Routes>
+        <Route element={<Home />} path="/" />
+      </Routes>
     </BrowserRouter>
   );
 };
